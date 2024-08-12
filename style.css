@@ -21,7 +21,7 @@ body{
 .container{
   position: relative;
   width: 400px;
-  height: 100px;
+  height: 150px;
   background: rgba(255, 255, 255, .1);
   backdrop-filter: blur(30px);
   border: 2px solid rgba(255, 255, 255, .2);
@@ -29,6 +29,14 @@ body{
   padding: 20px;
   color: #fff;
   transition: height .6s ease;
+}
+
+.author{
+  /* position: absolute; */
+  text-align: center;
+  font-size: 22px;
+  font-weight: 500;
+  padding-bottom: 5px;
 }
 
 .search-box{
@@ -208,8 +216,9 @@ body{
   left: 0;
   width: 100%;
   text-align: center;
-  margin-top: 110px;
+  margin-top: 130px;
 }
+
 .not-found img{
   width: 65%;
 }
